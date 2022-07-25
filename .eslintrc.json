@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "next",
+    "next/core-web-vitals",
+    "prettier",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "@next/next/no-html-link-for-pages": "warn",
+    "no-unused-vars": "warn",
+    "react-hooks/exhaustive-deps": "off",
+    "prettier/prettier": "error"
+  }
+}

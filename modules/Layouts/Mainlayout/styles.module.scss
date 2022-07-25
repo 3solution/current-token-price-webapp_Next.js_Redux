@@ -1,0 +1,7 @@
+.wrapper {
+  @apply py-10;
+
+  .title {
+    @apply flex justify-center py-10 text-2xl font-bold tablet:text-4xl underline;
+  }
+}

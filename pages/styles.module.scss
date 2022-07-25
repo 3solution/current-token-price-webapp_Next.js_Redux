@@ -1,0 +1,23 @@
+.title {
+  @apply text-2xl font-bold mt-8 mb-4;
+}
+
+.line {
+  @apply mt-8 border-t border-gray-200;
+}
+
+.description {
+  @apply text-lg;
+}
+
+.priceWrapper {
+  @apply grid tablet:grid-cols-3 grid-cols-1 gap-2;
+}
+
+.buttonWrapper {
+  @apply flex justify-center mt-16;
+
+  .button {
+    @apply bg-gray-500 text-white rounded-lg px-14 py-3 text-xl hover:bg-gray-400 active:bg-gray-600;
+  }
+}
